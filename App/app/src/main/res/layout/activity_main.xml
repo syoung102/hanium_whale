@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity=""
+    android:background="#FDF6EC"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/test"
+            android:textSize="22dp"
+            android:layout_marginTop="40dp"
+            android:text="하이하이"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/getid"
+            android:text="하이하이"
+            />
+
+
+        <DatePicker
+            android:id="@+id/date_picker"
+            android:theme="@style/DialogDatePicker.Theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5sp">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_MoveWrite"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="일기 쓰러 가기"
+            android:layout_height="40sp"
+            android:background="#FDF6EC"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

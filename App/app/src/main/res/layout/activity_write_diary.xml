@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity=""
+    android:background="#FDF6EC"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        >
+        <TextView
+            android:layout_marginTop="8dp"
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Hello World!"
+            android:textSize="24dp"
+            android:layout_marginBottom="14dp"
+            android:layout_weight="9"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+           android:id="@+id/btn_complete"
+            android:layout_marginTop="6dp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+            android:text="작성 완료"
+            android:layout_height="40sp"
+            android:layout_weight="1"
+            android:background="#FDF6EC"
+            />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="제목"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="555dp"
+        android:layout_marginBottom="0dp"
+        android:text="내용"
+        android:gravity="center"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="3dp"
+/>
+        <TextView
+            android:id="@+id/tv_comments"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="기분좋은날이에요 아주아주아주아주아주아주아주아주아주아주아주아주아주아주아주아주"
+            android:textSize="15sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="3dp"
+            />
+
+
+    </LinearLayout>
+
+
+    </LinearLayout>

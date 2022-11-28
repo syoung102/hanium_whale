@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="600dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="#FFFEFE"
+    tools:context=".ResPopup">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="감정 분석 결과"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"/>
+    <View
+        android:layout_width="700px"
+        android:layout_gravity="center"
+        android:layout_height="3px"
+        android:background="#778899"
+        />
+    <TextView
+        android:id="@+id/tv_getid"
+        android:text="text"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:layout_width="280dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:id="@+id/pieChart"
+        />
+    <TextView
+        android:id="@+id/tv_comments"
+        android:layout_width="280dp"
+        android:layout_height="110dp"
+        android:text="오늘은 ~~~~~~~~~~~~~~~~~~~~인 하루를 보내셨군요"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+        <TextView
+            android:id="@+id/tv_reco"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="오늘의 나에게 맞는 컨텐츠를 추천받고 싶다면?"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="컨텐츠 추천받기"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/btn_contents"
+        />
+
+
+
+
+
+
+
+
+</LinearLayout>
