@@ -1,0 +1,31 @@
+git+https://git@github.com/SKTBrain/KoBERT.git@master
+onnxruntime 1.8.0 depends on numpy>=1.16.6
+mxnet 1.4.0 depends on numpy<1.15.0 and >=1.8.2
+onnxruntime 1.8.0 depends on numpy>=1.16.6
+gluonnlp 0.6.0 depends on numpy
+직접 git가서 kobert 라이브러리 받고 파이썬 라이브러리 파일에 옮기기
+
+
+
+ __init__() got an unexpected keyword argument 'return_dict'
+
+ Attempting to deserialize object on a CUDA device but torch.cuda.is_available() is False. If you are running on a CPU-only machine, please use torch.load with map_location=torch.device('cpu') to map your storages to the CPU.
+ load에 model.load_state_dict(torch.load(PATH, map_location=device))
+
+gpu를 cpu로 바꾸기
+
+순서
+1. 파이썬 3.7.9
+2. 직접 git가서 kobert 라이브러리 받고 파이썬 라이브러리 파일에 옮기기
+3. 
+numpy==1.16.6
+mxnet==1.6.0
+transformers==3.1.0
+urllib3==1.25.4
+gluonnlp==0.10.0
+torch==1.12.0
+pandas==1.2.1
+boto3==1.24.31
+
+
+

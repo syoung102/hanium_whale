@@ -1,0 +1,3 @@
+konlpy
+pandas as pd
+sklearn
